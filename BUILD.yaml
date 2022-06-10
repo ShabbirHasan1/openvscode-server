@@ -15,3 +15,4 @@ packages:
         - ["yarn", "--cwd", "./install/build", "compile"]
         - ["yarn", "--cwd", "./install", "compile"]
         - ["yarn", "--cwd", "./install", "download-builtin-extensions"]
+        - ["yarn", "--cwd", "./install", "svelte:gitpod-web"]

@@ -57,7 +57,8 @@
     "hygiene": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js hygiene",
     "core-ci": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js core-ci",
     "extensions-ci": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js extensions-ci",
-    "server:init": "yarn --cwd ./build compile && yarn compile && yarn download-builtin-extensions"
+    "server:init": "yarn --cwd ./build compile && yarn compile && yarn download-builtin-extensions",
+	"svelte:gitpod-web": "yarn --cwd extensions/gitpod-web svelte:build"
   },
   "dependencies": {
     "@gitpod/gitpod-protocol": "main",
