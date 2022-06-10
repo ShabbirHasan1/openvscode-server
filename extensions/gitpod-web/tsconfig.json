@@ -1,12 +1,19 @@
 {
-	"extends": "../tsconfig.base.json",
-	"compilerOptions": {
-		"outDir": "./out",
-		"rootDir": "./src",
-		"esModuleInterop": true,
-		"sourceMap": true,
-	},
-	"references": [
-		{ "path": "../gitpod-shared" }
-	]
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2020",
+        "lib": [
+            "ES2020"
+        ],
+        "outDir": "./out",
+        "rootDir": "./src",
+        "esModuleInterop": true,
+        "sourceMap": true,
+    },
+    "references": [
+        {
+            "path": "../gitpod-shared"
+        }
+    ]
 }
